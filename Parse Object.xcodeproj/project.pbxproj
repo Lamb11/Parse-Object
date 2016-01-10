@@ -60,10 +60,10 @@
 		508B35B71C431A0C00DAA250 /* Parse Object */ = {
 			isa = PBXGroup;
 			children = (
-				508B35BB1C431A0C00DAA250 /* AppDelegate.h */,
-				508B35BC1C431A0C00DAA250 /* AppDelegate.m */,
-				508B35BE1C431A0C00DAA250 /* ViewController.h */,
-				508B35BF1C431A0C00DAA250 /* ViewController.m */,
+				508B35D51C431A5700DAA250 /* Models */,
+				508B35D41C431A4E00DAA250 /* Controllers */,
+				508B35D31C431A4600DAA250 /* Classes */,
+				508B35D21C431A3700DAA250 /* Main */,
 				508B35C11C431A0C00DAA250 /* Main.storyboard */,
 				508B35C71C431A0C00DAA250 /* Assets.xcassets */,
 				508B35C91C431A0C00DAA250 /* LaunchScreen.storyboard */,
@@ -80,6 +80,70 @@
 				508B35B91C431A0C00DAA250 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		508B35D21C431A3700DAA250 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				508B35BB1C431A0C00DAA250 /* AppDelegate.h */,
+				508B35BC1C431A0C00DAA250 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		508B35D31C431A4600DAA250 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		508B35D41C431A4E00DAA250 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				508B35BE1C431A0C00DAA250 /* ViewController.h */,
+				508B35BF1C431A0C00DAA250 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		508B35D51C431A5700DAA250 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				508B35D91C431A8400DAA250 /* Zones */,
+				508B35D81C431A7B00DAA250 /* General */,
+				508B35D71C431A6B00DAA250 /* Weather */,
+				508B35D61C431A6300DAA250 /* Sys */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		508B35D61C431A6300DAA250 /* Sys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sys;
+			sourceTree = "<group>";
+		};
+		508B35D71C431A6B00DAA250 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		508B35D81C431A7B00DAA250 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		508B35D91C431A8400DAA250 /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Zones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
